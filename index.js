@@ -73,8 +73,10 @@ const userQuestions = () => {
 const writeToFile = (answers) =>
 	`# ${answers.title}
 
+[![License: ${answers.license}]${listLicense(answers.license)}
+<br>
 ${answers.description}
-${listLicense(answers.license)}
+
 
 ## Table of Contents
 - <a href="#install">Install<a>
@@ -86,18 +88,19 @@ ${listLicense(answers.license)}
 
 ## <h1 id="install">Install<h1>
     
-- ${answers.install}
+${answers.install}
 
 ## <h1 id="usage">Usage<h1>
     
-- ${answers.usage}
+${answers.usage}
 
 ## <h1 id="credits">Credits<h1>
-- ${answers.credits}
+${answers.credits}
 
 ## <h1 id="license">License<h1>
 
-- This application is covered under the ${answers.license} license
+This application is covered under the ${answers.license} license
+
 [![License: ${answers.license}]${listLicense(answers.license)}
 
 ## <h1 id="test">Tests<h1>
