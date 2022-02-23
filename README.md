@@ -1,10 +1,10 @@
-# 1
+# README.md Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 	
 <br>
 
-1
+Use this README.md Generator when creating an open source project on GitHub. The output will be a high-quality README which includes what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions (so you have a higher likelihood of other developers will contributing to the success of the project). You can quickly and easily create a README file by using a command-line application to generate one and in turn this allows the project creator to devote more time to working on the project.
 <br>
 
 ## Table of Contents
@@ -16,8 +16,6 @@
 - <a href="#questions">Questions</a>
 
 ## <span id="install">Install</span>
-    
-1
 
 To use this portfolio as a template, open `terminal` or `gitbash` and move to Desktop
  
@@ -29,20 +27,24 @@ Create a new directory
 
 Clone this repo
 
-    git clone 1
+    git clone https://github.com/mrjeoffrey/readme-generator
 
-Open folder in VisualStudioCode and modify `index.html`
+Open folder in VisualStudioCode and open `index.js` in integrated terminal/bash using this code
+
+	node index.js
+
+Follow the prompts in the terminal/bash
 
 ## <span id="usage">Usage</span>
     
-1
+This is a demo of the generator
 
-| Desktop | 
+| DEMO | 
 | ------- | 
-| ![1](1) |
+| ![README.md Generator](./assets/video/demo.mov) |
 
 ## <span id="credits">Credits</span>
-1
+N/A
 
 ## <span id="license">License</span>
 
@@ -51,7 +53,7 @@ This application is covered under the MIT license.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 	
 
-©2022 1
+©2022 Jeoffrey Batangan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -65,5 +67,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## <span id="questions">Questions</span>
 
-1 was created by [1](https://github.com/1). For any inquiries, reach out to my [email](mailto://1) with subject line: "1 Inquiry".
+README.md Generator was created by [mrjeoffrey](https://github.com/mrjeoffrey). For any inquiries, reach out to my [email](mailto://b.jeoffrey@gmail.com) with subject line: "README.md Generator Inquiry".
 

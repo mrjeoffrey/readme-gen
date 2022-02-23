@@ -60,6 +60,11 @@ const userQuestions = () => {
 		},
 		{
 			type: "input",
+			message: "Enter test links",
+			name: "tests",
+		},
+		{
+			type: "input",
 			message: "Enter your GitHub Username:",
 			name: "github",
 		},
@@ -104,13 +109,11 @@ ${answers.description}
 - <a href="#install">Install</a>
 - <a href="#usage">Usage</a>
 - <a href="#credits">Credits</a>
-- <a href="#license">License</a>
 - <a href="#test">Tests</a>
 - <a href="#questions">Questions</a>
+- <a href="#license">License</a>
 
 ## <span id="install">Install</span>
-    
-${answers.install}
 
 To use this portfolio as a template, open \`terminal\` or \`gitbash\` and move to Desktop
  
@@ -122,9 +125,13 @@ Create a new directory
 
 Clone this repo
 
-    git clone ${answers.deploy}
+    git clone ${answers.repo}
 
-Open folder in VisualStudioCode and modify \`index.html\`
+Open folder in VisualStudioCode and open \`index.js\` in integrated terminal/bash using this code
+
+	node index.js
+
+Follow the prompts in the terminal/bash
 
 ## <span id="usage">Usage</span>
     
@@ -137,6 +144,22 @@ ${answers.usage}
 ## <span id="credits">Credits</span>
 ${answers.credits}
 
+
+## <span id="test">Tests</span>
+
+- [Test 1](${answers.tests})
+- [Test 2](${answers.tests})
+- [Test 3](${answers.tests})
+- [Test 4](${answers.tests})
+
+## <span id="questions">Questions</span>
+
+${answers.title} was created by [${answers.github}](https://github.com/${
+		answers.github
+	}). For any inquiries, reach out to my [email](mailto://${
+		answers.email
+	}) with subject line: "${answers.title} Inquiry".
+
 ## <span id="license">License</span>
 
 This application is covered under the ${answers.license} license.
@@ -146,17 +169,8 @@ This application is covered under the ${answers.license} license.
 ©2022 ${answers.name}
 
 ${renderLicenseText(answers.license)}
-
-
-## <span id="test">Tests</span>
-
-## <span id="questions">Questions</span>
-
-${answers.title} was created by [${answers.github}](https://github.com/${
-		answers.github
-	}). For any inquiries, reach out to my [email](mailto://${
-		answers.email
-	}) with subject line: "${answers.title} Inquiry".
+	
+	
 
 `;
 
