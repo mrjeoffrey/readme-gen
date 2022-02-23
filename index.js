@@ -206,6 +206,13 @@ function renderLicenseLink(answers) {
 	}
 }
 
+function listLicense(answers) {
+	let licenseBadge = renderLicenseBadge(answers);
+	let licenseLink = renderLicenseLink(answers);
+	return `(${licenseBadge})](${licenseLink})
+	`;
+}
+
 function renderLicenseText(answers) {
 	switch (answers) {
 		case "None":
@@ -321,13 +328,6 @@ See the License for the specific language governing permissions and
 limitations under the License.`;
 			break;
 	}
-}
-
-function listLicense(answers) {
-	let licenseBadge = renderLicenseBadge(answers);
-	let licenseLink = renderLicenseLink(answers);
-	return `(${licenseBadge})](${licenseLink})
-	`;
 }
 
 // TODO: Create a function to initialize app
