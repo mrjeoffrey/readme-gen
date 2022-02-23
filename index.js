@@ -125,13 +125,13 @@ Create a new directory
 
 Clone this repo
 
-    git clone ${answers.repo}
+    git clone ${answers.repo}.git
 
 Open folder in VisualStudioCode and open \`index.js\` in integrated terminal/bash using this code
 
 	node index.js
 
-Follow the prompts in the terminal/bash
+Follow the prompts in the terminal/bash to generate your README.md
 
 ## <span id="usage">Usage</span>
     

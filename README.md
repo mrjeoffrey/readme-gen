@@ -11,9 +11,9 @@ Use this README.md Generator when creating an open source project on GitHub. The
 - <a href="#install">Install</a>
 - <a href="#usage">Usage</a>
 - <a href="#credits">Credits</a>
-- <a href="#license">License</a>
 - <a href="#test">Tests</a>
 - <a href="#questions">Questions</a>
+- <a href="#license">License</a>
 
 ## <span id="install">Install</span>
 
@@ -46,6 +46,18 @@ This is a demo of the generator
 ## <span id="credits">Credits</span>
 N/A
 
+
+## <span id="test">Tests</span>
+
+- [Test 1](./assets/video/demo.mov)
+- [Test 2](./assets/video/demo.mov)
+- [Test 3](./assets/video/demo.mov)
+- [Test 4](./assets/video/demo.mov)
+
+## <span id="questions">Questions</span>
+
+README.md Generator was created by [mrjeoffrey](https://github.com/mrjeoffrey). For any inquiries, reach out to my [email](mailto://b.jeoffrey@gmail.com) with subject line: "README.md Generator Inquiry".
+
 ## <span id="license">License</span>
 
 This application is covered under the MIT license.
@@ -61,11 +73,6 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
-
-## <span id="test">Tests</span>
-
-## <span id="questions">Questions</span>
-
-README.md Generator was created by [mrjeoffrey](https://github.com/mrjeoffrey). For any inquiries, reach out to my [email](mailto://b.jeoffrey@gmail.com) with subject line: "README.md Generator Inquiry".
+	
+	
 
