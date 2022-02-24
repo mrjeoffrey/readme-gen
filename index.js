@@ -169,8 +169,6 @@ This application is covered under the ${answers.license} license.
 ©2022 ${answers.name}
 
 ${renderLicenseText(answers.license)}
-	
-	
 
 `;
 

@@ -27,21 +27,21 @@ Create a new directory
 
 Clone this repo
 
-    git clone https://github.com/mrjeoffrey/readme-generator
+    git clone https://github.com/mrjeoffrey/readme-generator.git
 
 Open folder in VisualStudioCode and open `index.js` in integrated terminal/bash using this code
 
 	node index.js
 
-Follow the prompts in the terminal/bash
+Follow the prompts in the terminal/bash to generate your README.md
 
 ## <span id="usage">Usage</span>
     
-This is a demo of the generator
+This is a demo of the README.md Generator
 
 | DEMO | 
 | ------- | 
-| ![README.md Generator](./assets/video/demo.mov) |
+| [![README.md Generator](https://img.youtube.com/vi/NjF9sTgAeyU/0.jpg)](https://www.youtube.com/watch?v=NjF9sTgAeyU) |
 
 ## <span id="credits">Credits</span>
 N/A
@@ -73,6 +73,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-	
-	
 
